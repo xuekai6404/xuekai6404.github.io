@@ -1,48 +1,48 @@
 # EtaNotes Website
 
-这是 EtaNotes 的 GitHub Pages 网站，包含产品介绍页面和 app-ads.txt 文件。
+This is the GitHub Pages website for EtaNotes, containing the product introduction page and app-ads.txt file.
 
-## 文件说明
+## File Description
 
-- `index.html` - 产品介绍主页
-- `app-ads.txt` - 广告验证文件（用于 Google AdMob）
-- `assets/style.css` - 网站样式文件
+- `index.html` - Product introduction homepage
+- `app-ads.txt` - Ad verification file (for Google AdMob)
+- `assets/style.css` - Website stylesheet
 
-## 部署说明
+## Deployment Instructions
 
-### GitHub Pages 设置
+### GitHub Pages Setup
 
-1. 在 GitHub 仓库中，进入 **Settings** > **Pages**
-2. 在 **Source** 部分，选择：
-   - Branch: `main` (或 `master`)
+1. In the GitHub repository, go to **Settings** > **Pages**
+2. In the **Source** section, select:
+   - Branch: `main` (or `master`)
    - Folder: `/docs/website`
-3. 点击 **Save** 保存设置
-4. 网站将在几分钟内部署到：`https://[username].github.io/EtaNotes/`
+3. Click **Save** to save the settings
+4. The website will be deployed within a few minutes to: `https://[username].github.io/EtaNotes/`
 
-### app-ads.txt 配置
+### app-ads.txt Configuration
 
-1. 打开 `app-ads.txt` 文件
-2. 将 `pub-XXXXXXXXXXXXXXXX` 替换为您的实际 Google AdMob 发布商 ID
-3. 发布商 ID 可以在 [Google AdMob 控制台](https://apps.admob.com/) 的 **设置** > **账户信息** 中找到
-4. 提交更改后，文件将自动部署
+1. Open the `app-ads.txt` file
+2. Replace `pub-XXXXXXXXXXXXXXXX` with your actual Google AdMob Publisher ID
+3. The Publisher ID can be found in the [Google AdMob Console](https://apps.admob.com/) under **Settings** > **Account Information**
+4. After submitting changes, the file will be automatically deployed
 
-### 验证 app-ads.txt
+### Verify app-ads.txt
 
-部署后，可以通过以下方式验证：
+After deployment, you can verify it by:
 
-1. 访问：`https://[username].github.io/EtaNotes/app-ads.txt`
-2. 确认文件可以正常访问且内容正确
-3. 在 Google AdMob 中验证域名所有权（如需要）
+1. Visit: `https://[username].github.io/EtaNotes/app-ads.txt`
+2. Confirm that the file is accessible and the content is correct
+3. Verify domain ownership in Google AdMob (if required)
 
-## 更新下载链接
+## Update Download Links
 
-在 `index.html` 中更新实际的 App Store 和 Google Play 下载链接：
+Update the actual App Store and Google Play download links in `index.html`:
 
-- iOS 下载链接：找到 `id="ios-download"` 的 `<a>` 标签，更新 `href` 属性
-- Android 下载链接：找到 `id="android-download"` 的 `<a>` 标签，更新 `href` 属性
+- iOS download link: Find the `<a>` tag with `id="ios-download"`, update the `href` attribute
+- Android download link: Find the `<a>` tag with `id="android-download"`, update the `href` attribute
 
-## 注意事项
+## Notes
 
-- app-ads.txt 文件更新后，可能需要几小时才能被广告网络抓取
-- 确保使用 HTTPS 访问（GitHub Pages 自动提供）
-- 如需使用自定义域名，需要在 GitHub Pages 设置中配置
+- After updating the app-ads.txt file, it may take several hours for ad networks to crawl it
+- Ensure HTTPS access is used (GitHub Pages provides this automatically)
+- If you need to use a custom domain, configure it in the GitHub Pages settings
