@@ -1,0 +1,10 @@
+# app-ads.txt file for EtaNotes
+# Package: com.xk.vnote.vnote
+# 
+# This file is used to declare authorized digital sellers for in-app advertising.
+# For more information, visit: https://iabtechlab.com/ads-txt/
+
+# Google AdMob
+# TODO: Replace pub-XXXXXXXXXXXXXXXX with your actual Google AdMob Publisher ID
+# You can find your Publisher ID in your AdMob account under Settings > Account Information
+google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
